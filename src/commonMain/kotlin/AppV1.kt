@@ -38,22 +38,6 @@ class AppV1: Application {
                     }
                 }
             }
-            /*val html = """
-                ---
-                title: 测试
-                author: 123
-                description: 介绍
-                asd: 
-                ---
-
-                <p>abab</p>
-                <br/>
-                <p>1234</p>
-            """.trimIndent()*/
-//            println(Markdown2Html.getDataBlock(html))
-//            println(Markdown2Html.removeDataBlock(html))
-//            println(Markdown2Html.convert(it.readString("E:\\文档\\markdown\\openvpn搭建内网.md")))
-//            it.write("temp/index1.html",it.readString("temp/template/index.html").parse())
         }
     }
 }
